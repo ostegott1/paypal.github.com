@@ -1,0 +1,70 @@
+.tabbable {
+  border: 1px solid #D2D2D2;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.tabbable .btn-group {
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+
+.tabbable .btn-group li {
+  padding: 0px;
+}
+
+.tabbable .btn-group li a {
+  padding: 4px 14px;
+  color: #333333;
+}
+
+.tabbable .btn-group li.active a {
+  color: #0088CC;
+}
+
+pre {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  line-height: 35px;
+}
+
+h2 {
+  margin-top: 5px;
+  line-height: 30px;
+}
+
+.pop-out-icon {
+  height: 11px;
+}
+
+.navbar .brand {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #666666;
+  padding: 0px;
+  margin: 0px;
+}
+
+.topnav .siteLogo {
+  padding-top: 0px;
+}
+
+.navbar-fixed-top .topnav .container .pull-right {
+  padding-top: 0px;
+}
+
+@media (max-width: 767px) {
+  .sidebar.affix {
+    position: static;
+    width: auto;
+    top: 0;
+  }
+}

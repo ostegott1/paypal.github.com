@@ -61,6 +61,16 @@ h2 {
   padding-top: 0px;
 }
 
+.nav-list > li.active a:after {
+  border-bottom: 7px solid rgba(255,255,255,0);
+  border-top: 7px solid rgba(255,255,255,0);
+}
+
+.nav-list > li.active a:before {
+  border-bottom: 9px solid rgba(255,255,255,0);
+  border-top: 9px solid rgba(255,255,255,0);
+}
+
 @media (max-width: 767px) {
   .sidebar.affix {
     position: static;

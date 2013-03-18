@@ -68,6 +68,8 @@
           <li><a href="#permissions">Permissions</a></li>
           <li><a href="#merchant">Merchant</a></li>
           <li><a href="#button-manager">Button Manager</a></li>
+          <li><a href="#payflow-gateway">Payflow Gateway</a></li>
+          <li><a title="PayPal Payments Pro(Payflow edition)" href="#ppo-payflow">Payments Pro</a></li>
         </ul>
       </div>
     </div>
@@ -872,6 +874,130 @@
             Source at
             <a href="https://github.com/paypal/buttonmanager-sdk-dotnet">https://github.com/paypal/buttonmanager-sdk-dotnet</a>
           </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='sdk-install' id='payflow-gateway'>
+  <h1>Payflow Gateway</h1>
+  <p>Payflow Gateway enables you to use hosted checkout pages with the Payflow SDK to integrate the Payflow payments solution into your website or application.</p>
+  <div class='tabbable'>
+    <ul class='nav btn-group'>
+      <li class='btn active'>
+        <a data-toggle='tab' href='#payflow-gateway-tab-java'>Java</a>
+      </li>
+      <li class='btn'>
+        <a data-toggle='tab' href='#payflow-gateway-tab-oscommerce'>OSCommerce</a>
+      </li>
+      <li class='btn'>
+        <a data-toggle='tab' href='#payflow-gateway-tab-csharp'>.NET</a>
+      </li>
+    </ul>
+    <div class='tab-content'>
+      <div class='tab-pane active' id='payflow-gateway-tab-java'>
+        <h2>Prerequisites</h2>
+<ul>
+  <li>Java 2 Platform, Standard Edition (J2SE) 1.4 or later.</li>
+  <li>Xerces Java Parser version 2.7.1 from Apache.</li>
+</ul>
+        <h2>Installation</h2>
+        <ul>
+          <li>
+            Download
+            <a href='https://github.com/paypal/sdk-packages/raw/gh-pages/payflow-gateway/java/Payflow_SDK_for_Java_v440.zip'>SDK</a>
+          </li>
+          <li>Copy <code>payflow.jar</code> from <code>lib</code> folder to your appropriate lib folder.</li>
+        </ul>
+      </div>
+      <div class='tab-pane' id='payflow-gateway-tab-oscommerce'>
+        These payment modules add support for additional features of PayPal PayFlow Link Hosted Pages to osCommerce 2.3.x.
+        <h2>Installation</h2>
+<p>To install the module, back up your existing osCommerce installation files and database.</p>
+<ul>
+  <li>
+    Download
+    <a href='https://github.com/paypal/sdk-packages/raw/gh-pages/payflow-gateway/oscommerce-2.3/OsC23PayPalPayFlow.zip'>SDK</a>
+  </li>
+  <li>Copy/upload all files in the /catalog/ directory over your existing osCommerce /catalog/ directory. This will replace files in your current osCommerce installation and add the new files to support additional features.</li>
+  <li>If you have customised the design or program code of your osCommerce installation, you will need to manually compare the updated files with your existing files, and manually merge any code or design changes.</li>
+</ul>
+If you are installing osCommerce for the first time, the installation instructions are available at http://www.oscommerce.info/confluence/display/OSCOM23/osCommerce+Online+Merchant+v2.3 . You will need to turn on register_globals and enable the MySQL extension in php.ini, at a minimum
+      </div>
+      <div class='tab-pane' id='payflow-gateway-tab-csharp'>
+        <h2>Prerequisites</h2>
+<ul>
+  <li>.NET Framework 1.1 or later</li>
+</ul>
+        <h2>Installation</h2>
+        <ul>
+          <li>
+            Download
+            <a href='https://github.com/paypal/sdk-packages/raw/gh-pages/payflow-gateway/dotnet/payflow_dotnet_setup_v4.33.zip'>SDK</a>
+          </li>
+          <li>The <code>Payflow_dotNET_Setup.msi</code> file will install all 'samples' and 'dll' for you.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='sdk-install' id='ppo-payflow'>
+  <h1>PayPal Payments Pro(Payflow Edition)</h1>
+  <p>PayPal Payments Pro (Also known as Website Payments Pro outside the US) enables merchants and developers to accept credit cards,debit cards, and PayPal payments directly on their website. PayPal Payments Pro also includes Express Checkout and Virtual Terminal. Add-on services like Recurring Billing are also available.</p>
+  <div class='tabbable'>
+    <ul class='nav btn-group'>
+      <li class='btn active'>
+        <a data-toggle='tab' href='#ppo-payflow-tab-java'>Java</a>
+      </li>
+      <li class='btn'>
+        <a data-toggle='tab' href='#ppo-payflow-tab-oscommerce'>OSCommerce</a>
+      </li>
+      <li class='btn'>
+        <a data-toggle='tab' href='#ppo-payflow-tab-csharp'>.NET</a>
+      </li>
+    </ul>
+    <div class='tab-content'>
+      <div class='tab-pane active' id='ppo-payflow-tab-java'>
+        <h2>Prerequisites</h2>
+<ul>
+  <li>Java 2 Platform, Standard Edition (J2SE) 1.4 or later.</li>
+  <li>Xerces Java Parser version 2.7.1 from Apache.</li>
+</ul>
+        <h2>Installation</h2>
+        <ul>
+          <li>
+            Download
+            <a href='https://github.com/paypal/sdk-packages/raw/gh-pages/paypal-payments-pro-payflow-edition/java/Payflow_SDK_for_Java_v440.zip'>SDK</a>
+          </li>
+          <li>Copy <code>payflow.jar</code> from <code>lib</code> folder to your appropriate lib folder.</li>
+        </ul>
+      </div>
+      <div class='tab-pane' id='ppo-payflow-tab-oscommerce'>
+        These payment modules add support for additional features of PayPal PayFlow Link Hosted Pages to osCommerce 2.3.x.
+        <h2>Installation</h2>
+<p>To install the module, back up your existing osCommerce installation files and database.</p>
+<ul>
+  <li>
+    Download
+    <a href='https://github.com/paypal/sdk-packages/raw/gh-pages/paypal-payments-pro-payflow-edition/oscommerce-2.3/OsC23PayPalPayFlow.zip'>SDK</a>
+  </li>
+  <li>Copy/upload all files in the /catalog/ directory over your existing osCommerce /catalog/ directory. This will replace files in your current osCommerce installation and add the new files to support additional features.</li>
+  <li>If you have customised the design or program code of your osCommerce installation, you will need to manually compare the updated files with your existing files, and manually merge any code or design changes.</li>
+</ul>
+If you are installing osCommerce for the first time, the installation instructions are available at http://www.oscommerce.info/confluence/display/OSCOM23/osCommerce+Online+Merchant+v2.3 . You will need to turn on register_globals and enable the MySQL extension in php.ini, at a minimum
+      </div>
+      <div class='tab-pane' id='ppo-payflow-tab-csharp'>
+        <h2>Prerequisites</h2>
+<ul>
+  <li>.NET Framework 1.1 or later</li>
+</ul>
+        <h2>Installation</h2>
+        <ul>
+          <li>
+            Download
+            <a href='https://github.com/paypal/sdk-packages/raw/gh-pages/paypal-payments-pro-payflow-edition/dotnet/Payflow_dotNET_v4.50RC.zip'>SDK</a>
+          </li>
+          <li>Copy <code>Payflow_dotNET.dll</code> to your appropriate lib folder.</li>
         </ul>
       </div>
     </div>

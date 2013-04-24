@@ -11,7 +11,7 @@ jQuery(function($){
 
   $('#sdk-menus li').click(function(){
     $('html, body').animate({
-        scrollTop: ( $($(this).children('a').attr('href')).offset().top - 150)
+        scrollTop: $($(this).children('a').attr('href')).offset().top
     }, 400);
     return false
   })

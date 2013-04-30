@@ -6,7 +6,7 @@ jQuery(function($){
   }
   set_section_height();
 
-  $('body').scrollspy({ target: ".sidebar", offset: 300 });
+  $('body').scrollspy({ target: ".sidebar", offset: 200 });
   $('.sidebar').affix({});
 
   $('#sdk-menus li').click(function(){

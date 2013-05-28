@@ -184,7 +184,7 @@
       <div class='tab-pane' id='payments-tab-php'>
         <h2>Prerequisites</h2>
 <ul>
-  <li>PHP 5.3 or above</li>
+  <li>PHP <b>5.3</b> or above</li>
   <li>curl & openssl extensions must be enabled</li>
   <li>composer</li>
 </ul>
@@ -241,7 +241,10 @@
         <a data-toggle='tab' href='#adaptive-payments-tab-java'>Java</a>
       </li>
       <li class='btn'>
-        <a data-toggle='tab' href='#adaptive-payments-tab-php'>PHP</a>
+        <a data-toggle='tab' href='#adaptive-payments-tab-php-5-3'>PHP</a>
+      </li>
+      <li class='btn'>
+        <a data-toggle='tab' href='#adaptive-payments-tab-php'>PHP 5.2</a>
       </li>
       <li class='btn'>
         <a data-toggle='tab' href='#adaptive-payments-tab-csharp'>.NET</a>
@@ -293,19 +296,44 @@
           </li>
         </ul>
       </div>
-      <div class='tab-pane' id='adaptive-payments-tab-php'>
+      <div class='tab-pane' id='adaptive-payments-tab-php-5-3'>
         <h2>Prerequisites</h2>
 <ul>
-  <li>PHP 5.2 or above</li>
+  <li>PHP <b>5.3</b> or above</li>
   <li>curl & openssl extensions must be enabled</li>
   <li>composer</li>
 </ul>
         <h2>Installation</h2>
 <p>Add dependency to your application <code>composer.json</code> as below</p>
-<pre>"require": {&#x000A;  "php": ">=5.2.0",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/adaptivepayments-sdk-php":"v2.3.101"&#x000A;}</pre>
+<pre>"require": {&#x000A;  "php": ">=5.3",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/adaptivepayments-sdk-php":"v3.4.102"&#x000A;}</pre>
 <p>Run <code>composer update</code>, to install dependency</p>
 <p>Without composer</p>
-<pre>curl https://raw.github.com/paypal/adaptivepayments-sdk-php/composer/samples/install.php | php</pre>
+<pre>curl https://raw.github.com/paypal/adaptivepayments-sdk-php/stable-php5.3/samples/install.php | php</pre>
+        <h2>Links</h2>
+        <ul>
+          <li>
+            Download
+            <a href="https://github.com/paypal/sdk-packages/raw/gh-pages/adaptivepayments-sdk/php/adaptivepayments-sdk-php-3.4.102.zip">SDK</a>
+          </li>
+          <li>
+            Source at
+            <a href="https://github.com/paypal/adaptivepayments-sdk-php/tree/namespace-php5.3">https://github.com/paypal/adaptivepayments-sdk-php/tree/namespace-php5.3</a>
+          </li>
+        </ul>
+      </div>
+      <div class='tab-pane' id='adaptive-payments-tab-php'>
+        <h2>Prerequisites</h2>
+<ul>
+  <li>PHP <b>5.2</b> or above</li>
+  <li>curl & openssl extensions must be enabled</li>
+  <li>composer</li>
+</ul>
+        <h2>Installation</h2>
+<p>Add dependency to your application <code>composer.json</code> as below</p>
+<pre>"require": {&#x000A;  "php": ">=5.2",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/adaptivepayments-sdk-php":"v2.3.101"&#x000A;}</pre>
+<p>Run <code>composer update</code>, to install dependency</p>
+<p>Without composer</p>
+<pre>curl https://raw.github.com/paypal/adaptivepayments-sdk-php/stable/samples/install.php | php</pre>
         <h2>Links</h2>
         <ul>
           <li>
@@ -355,7 +383,10 @@
         <a data-toggle='tab' href='#adaptive-accounts-tab-java'>Java</a>
       </li>
       <li class='btn'>
-        <a data-toggle='tab' href='#adaptive-accounts-tab-php'>PHP</a>
+        <a data-toggle='tab' href='#adaptive-accounts-tab-php-5-3'>PHP</a>
+      </li>
+      <li class='btn'>
+        <a data-toggle='tab' href='#adaptive-accounts-tab-php'>PHP 5.2</a>
       </li>
       <li class='btn'>
         <a data-toggle='tab' href='#adaptive-accounts-tab-csharp'>.NET</a>
@@ -407,19 +438,44 @@
           </li>
         </ul>
       </div>
-      <div class='tab-pane' id='adaptive-accounts-tab-php'>
+      <div class='tab-pane' id='adaptive-accounts-tab-php-5-3'>
         <h2>Prerequisites</h2>
 <ul>
-  <li>PHP 5.2 or above</li>
+  <li>PHP <b>5.3</b> or above</li>
   <li>curl & openssl extensions must be enabled</li>
   <li>composer</li>
 </ul>
         <h2>Installation</h2>
 <p>Add dependency to your application <code>composer.json</code> as below</p>
-<pre>"require": {&#x000A;  "php": ">=5.2.0",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/adaptiveaccounts-sdk-php":"v2.4.102"&#x000A;}</pre>
+<pre>"require": {&#x000A;  "php": ">=5.3",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/adaptiveaccounts-sdk-php":"v3.4.102"&#x000A;}</pre>
 <p>Run <code>composer update</code>, to install dependency</p>
 <p>Without composer</p>
-<pre>curl https://raw.github.com/paypal/adaptiveaccounts-sdk-php/composer/samples/install.php | php</pre>
+<pre>curl https://raw.github.com/paypal/adaptiveaccounts-sdk-php/stable-php5.3/samples/install.php | php</pre>
+        <h2>Links</h2>
+        <ul>
+          <li>
+            Download
+            <a href="https://github.com/paypal/sdk-packages/raw/gh-pages/adaptiveaccounts-sdk/php/adaptiveaccounts-sdk-php-3.4.102.zip">SDK</a>
+          </li>
+          <li>
+            Source at
+            <a href="https://github.com/paypal/adaptiveaccounts-sdk-php/tree/namespace-php5.3">https://github.com/paypal/adaptiveaccounts-sdk-php/tree/namespace-php5.3</a>
+          </li>
+        </ul>
+      </div>
+      <div class='tab-pane' id='adaptive-accounts-tab-php'>
+        <h2>Prerequisites</h2>
+<ul>
+  <li>PHP <b>5.2</b> or above</li>
+  <li>curl & openssl extensions must be enabled</li>
+  <li>composer</li>
+</ul>
+        <h2>Installation</h2>
+<p>Add dependency to your application <code>composer.json</code> as below</p>
+<pre>"require": {&#x000A;  "php": ">=5.2",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/adaptiveaccounts-sdk-php":"v2.4.102"&#x000A;}</pre>
+<p>Run <code>composer update</code>, to install dependency</p>
+<p>Without composer</p>
+<pre>curl https://raw.github.com/paypal/adaptiveaccounts-sdk-php/stable/samples/install.php | php</pre>
         <h2>Links</h2>
         <ul>
           <li>
@@ -469,7 +525,10 @@
         <a data-toggle='tab' href='#invoice-tab-java'>Java</a>
       </li>
       <li class='btn'>
-        <a data-toggle='tab' href='#invoice-tab-php'>PHP</a>
+        <a data-toggle='tab' href='#invoice-tab-php-5-3'>PHP</a>
+      </li>
+      <li class='btn'>
+        <a data-toggle='tab' href='#invoice-tab-php'>PHP 5.2</a>
       </li>
       <li class='btn'>
         <a data-toggle='tab' href='#invoice-tab-csharp'>.NET</a>
@@ -521,19 +580,44 @@
           </li>
         </ul>
       </div>
-      <div class='tab-pane' id='invoice-tab-php'>
+      <div class='tab-pane' id='invoice-tab-php-5-3'>
         <h2>Prerequisites</h2>
 <ul>
-  <li>PHP 5.2 or above</li>
+  <li>PHP <b>5.3</b> or above</li>
   <li>curl & openssl extensions must be enabled</li>
   <li>composer</li>
 </ul>
         <h2>Installation</h2>
 <p>Add dependency to your application <code>composer.json</code> as below</p>
-<pre>"require": {&#x000A;  "php": ">=5.2.0",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/invoice-sdk-php":"v2.3.101"&#x000A;}</pre>
+<pre>"require": {&#x000A;  "php": ">=5.3",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/invoice-sdk-php":"v3.4.102"&#x000A;}</pre>
 <p>Run <code>composer update</code>, to install dependency</p>
 <p>Without composer</p>
-<pre>curl https://raw.github.com/paypal/invoice-sdk-php/composer/samples/install.php | php</pre>
+<pre>curl https://raw.github.com/paypal/invoice-sdk-php/stable-php5.3/samples/install.php | php</pre>
+        <h2>Links</h2>
+        <ul>
+          <li>
+            Download
+            <a href="https://github.com/paypal/sdk-packages/raw/gh-pages/invoice-sdk/php/invoice-sdk-php-3.4.102.zip">SDK</a>
+          </li>
+          <li>
+            Source at
+            <a href="https://github.com/paypal/invoice-sdk-php/tree/namespace-php5.3">https://github.com/paypal/invoice-sdk-php/tree/namespace-php5.3</a>
+          </li>
+        </ul>
+      </div>
+      <div class='tab-pane' id='invoice-tab-php'>
+        <h2>Prerequisites</h2>
+<ul>
+  <li>PHP <b>5.2</b> or above</li>
+  <li>curl & openssl extensions must be enabled</li>
+  <li>composer</li>
+</ul>
+        <h2>Installation</h2>
+<p>Add dependency to your application <code>composer.json</code> as below</p>
+<pre>"require": {&#x000A;  "php": ">=5.2",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/invoice-sdk-php":"v2.3.101"&#x000A;}</pre>
+<p>Run <code>composer update</code>, to install dependency</p>
+<p>Without composer</p>
+<pre>curl https://raw.github.com/paypal/invoice-sdk-php/stable/samples/install.php | php</pre>
         <h2>Links</h2>
         <ul>
           <li>
@@ -583,7 +667,10 @@
         <a data-toggle='tab' href='#permissions-tab-java'>Java</a>
       </li>
       <li class='btn'>
-        <a data-toggle='tab' href='#permissions-tab-php'>PHP</a>
+        <a data-toggle='tab' href='#permissions-tab-php-5-3'>PHP</a>
+      </li>
+      <li class='btn'>
+        <a data-toggle='tab' href='#permissions-tab-php'>PHP 5.2</a>
       </li>
       <li class='btn'>
         <a data-toggle='tab' href='#permissions-tab-csharp'>.NET</a>
@@ -635,19 +722,44 @@
           </li>
         </ul>
       </div>
-      <div class='tab-pane' id='permissions-tab-php'>
+      <div class='tab-pane' id='permissions-tab-php-5-3'>
         <h2>Prerequisites</h2>
 <ul>
-  <li>PHP 5.2 or above</li>
+  <li>PHP <b>5.3</b> or above</li>
   <li>curl & openssl extensions must be enabled</li>
   <li>composer</li>
 </ul>
         <h2>Installation</h2>
 <p>Add dependency to your application <code>composer.json</code> as below</p>
-<pre>"require": {&#x000A;  "php": ">=5.2.0",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/permissions-sdk-php":"v2.3.101"&#x000A;}</pre>
+<pre>"require": {&#x000A;  "php": ">=5.3",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/permissions-sdk-php":"v3.4.102"&#x000A;}</pre>
 <p>Run <code>composer update</code>, to install dependency</p>
 <p>Without composer</p>
-<pre>curl https://raw.github.com/paypal/permissions-sdk-php/composer/samples/install.php | php</pre>
+<pre>curl https://raw.github.com/paypal/permissions-sdk-php/stable-php5.3/samples/install.php | php</pre>
+        <h2>Links</h2>
+        <ul>
+          <li>
+            Download
+            <a href="https://github.com/paypal/sdk-packages/raw/gh-pages/permissions-sdk/php/permissions-sdk-php-3.4.102.zip">SDK</a>
+          </li>
+          <li>
+            Source at
+            <a href="https://github.com/paypal/permissions-sdk-php/tree/namespace-php5.3">https://github.com/paypal/permissions-sdk-php/tree/namespace-php5.3</a>
+          </li>
+        </ul>
+      </div>
+      <div class='tab-pane' id='permissions-tab-php'>
+        <h2>Prerequisites</h2>
+<ul>
+  <li>PHP <b>5.2</b> or above</li>
+  <li>curl & openssl extensions must be enabled</li>
+  <li>composer</li>
+</ul>
+        <h2>Installation</h2>
+<p>Add dependency to your application <code>composer.json</code> as below</p>
+<pre>"require": {&#x000A;  "php": ">=5.2",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/permissions-sdk-php":"v2.3.101"&#x000A;}</pre>
+<p>Run <code>composer update</code>, to install dependency</p>
+<p>Without composer</p>
+<pre>curl https://raw.github.com/paypal/permissions-sdk-php/stable/samples/install.php | php</pre>
         <h2>Links</h2>
         <ul>
           <li>
@@ -697,7 +809,10 @@
         <a data-toggle='tab' href='#merchant-tab-java'>Java</a>
       </li>
       <li class='btn'>
-        <a data-toggle='tab' href='#merchant-tab-php'>PHP</a>
+        <a data-toggle='tab' href='#merchant-tab-php-5-3'>PHP</a>
+      </li>
+      <li class='btn'>
+        <a data-toggle='tab' href='#merchant-tab-php'>PHP 5.2</a>
       </li>
       <li class='btn'>
         <a data-toggle='tab' href='#merchant-tab-csharp'>.NET</a>
@@ -749,19 +864,44 @@
           </li>
         </ul>
       </div>
-      <div class='tab-pane' id='merchant-tab-php'>
+      <div class='tab-pane' id='merchant-tab-php-5-3'>
         <h2>Prerequisites</h2>
 <ul>
-  <li>PHP 5.2 or above</li>
+  <li>PHP <b>5.3</b> or above</li>
   <li>curl & openssl extensions must be enabled</li>
   <li>composer</li>
 </ul>
         <h2>Installation</h2>
 <p>Add dependency to your application <code>composer.json</code> as below</p>
-<pre>"require": {&#x000A;  "php": ">=5.2.0",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/merchant-sdk-php":"v2.3.101"&#x000A;}</pre>
+<pre>"require": {&#x000A;  "php": ">=5.3",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/merchant-sdk-php":"v3.4.102"&#x000A;}</pre>
 <p>Run <code>composer update</code>, to install dependency</p>
 <p>Without composer</p>
-<pre>curl https://raw.github.com/paypal/merchant-sdk-php/composer/samples/install.php | php</pre>
+<pre>curl https://raw.github.com/paypal/merchant-sdk-php/stable-php5.3/samples/install.php | php</pre>
+        <h2>Links</h2>
+        <ul>
+          <li>
+            Download
+            <a href="https://github.com/paypal/sdk-packages/raw/gh-pages/merchant-sdk/php/merchant-sdk-php-3.4.102.zip">SDK</a>
+          </li>
+          <li>
+            Source at
+            <a href="https://github.com/paypal/merchant-sdk-php/tree/namespace-php5.3">https://github.com/paypal/merchant-sdk-php/tree/namespace-php5.3</a>
+          </li>
+        </ul>
+      </div>
+      <div class='tab-pane' id='merchant-tab-php'>
+        <h2>Prerequisites</h2>
+<ul>
+  <li>PHP <b>5.2</b> or above</li>
+  <li>curl & openssl extensions must be enabled</li>
+  <li>composer</li>
+</ul>
+        <h2>Installation</h2>
+<p>Add dependency to your application <code>composer.json</code> as below</p>
+<pre>"require": {&#x000A;  "php": ">=5.2",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/merchant-sdk-php":"v2.3.101"&#x000A;}</pre>
+<p>Run <code>composer update</code>, to install dependency</p>
+<p>Without composer</p>
+<pre>curl https://raw.github.com/paypal/merchant-sdk-php/stable/samples/install.php | php</pre>
         <h2>Links</h2>
         <ul>
           <li>
@@ -811,7 +951,10 @@
         <a data-toggle='tab' href='#button-manager-tab-java'>Java</a>
       </li>
       <li class='btn'>
-        <a data-toggle='tab' href='#button-manager-tab-php'>PHP</a>
+        <a data-toggle='tab' href='#button-manager-tab-php-5-3'>PHP</a>
+      </li>
+      <li class='btn'>
+        <a data-toggle='tab' href='#button-manager-tab-php'>PHP 5.2</a>
       </li>
       <li class='btn'>
         <a data-toggle='tab' href='#button-manager-tab-csharp'>.NET</a>
@@ -863,19 +1006,44 @@
           </li>
         </ul>
       </div>
-      <div class='tab-pane' id='button-manager-tab-php'>
+      <div class='tab-pane' id='button-manager-tab-php-5-3'>
         <h2>Prerequisites</h2>
 <ul>
-  <li>PHP 5.2 or above</li>
+  <li>PHP <b>5.3</b> or above</li>
   <li>curl & openssl extensions must be enabled</li>
   <li>composer</li>
 </ul>
         <h2>Installation</h2>
 <p>Add dependency to your application <code>composer.json</code> as below</p>
-<pre>"require": {&#x000A;  "php": ">=5.2.0",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/buttonmanager-sdk-php":"v2.3.101"&#x000A;}</pre>
+<pre>"require": {&#x000A;  "php": ">=5.3",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/buttonmanager-sdk-php":"v3.4.102"&#x000A;}</pre>
 <p>Run <code>composer update</code>, to install dependency</p>
 <p>Without composer</p>
-<pre>curl https://raw.github.com/paypal/buttonmanager-sdk-php/composer/samples/install.php | php</pre>
+<pre>curl https://raw.github.com/paypal/buttonmanager-sdk-php/stable-php5.3/samples/install.php | php</pre>
+        <h2>Links</h2>
+        <ul>
+          <li>
+            Download
+            <a href="https://github.com/paypal/sdk-packages/raw/gh-pages/buttonmanager-sdk/php/buttonmanager-sdk-php-3.4.102.zip">SDK</a>
+          </li>
+          <li>
+            Source at
+            <a href="https://github.com/paypal/buttonmanager-sdk-php/tree/namespace-php5.3">https://github.com/paypal/buttonmanager-sdk-php/tree/namespace-php5.3</a>
+          </li>
+        </ul>
+      </div>
+      <div class='tab-pane' id='button-manager-tab-php'>
+        <h2>Prerequisites</h2>
+<ul>
+  <li>PHP <b>5.2</b> or above</li>
+  <li>curl & openssl extensions must be enabled</li>
+  <li>composer</li>
+</ul>
+        <h2>Installation</h2>
+<p>Add dependency to your application <code>composer.json</code> as below</p>
+<pre>"require": {&#x000A;  "php": ">=5.2",&#x000A;  "ext-curl": "*",&#x000A;  "paypal/buttonmanager-sdk-php":"v2.3.101"&#x000A;}</pre>
+<p>Run <code>composer update</code>, to install dependency</p>
+<p>Without composer</p>
+<pre>curl https://raw.github.com/paypal/buttonmanager-sdk-php/stable/samples/install.php | php</pre>
         <h2>Links</h2>
         <ul>
           <li>
